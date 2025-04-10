@@ -13,8 +13,8 @@ The AI Real Estate Agent automates property search and market analysis using Fir
 ### How to Get Started
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_real_estate_agent
+   git clone https://github.com/Xtines/real_estate_agent.git
+ 
    ```
 
 2. **Install the required packages**:
@@ -28,7 +28,7 @@ The AI Real Estate Agent automates property search and market analysis using Fir
 
 4. **Run the application**:
    ```bash
-   streamlit run ai_real_estate_agent.py
+   streamlit run ai_property_agent.py
    ```
 
 ### Using the Agent
