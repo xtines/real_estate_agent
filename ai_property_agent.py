@@ -64,7 +64,7 @@ class PropertyFindingAgent:
         
         urls = [
             f"https://www.zillow.com/{formatted_location}/{home_type}/{bds}-bedrooms/*",
-            f"https://www.trulia.com/for_sale/{city},{state}/{bds}p_beds/",
+            f"https://www.trulia.com/for_sale/{city},{state}/{bds}p_beds/*",
             #f"https://streeteasy.com/for-sale/{formatted_location}",
 
             # change property brokers according to country

@@ -4,7 +4,7 @@ The AI Real Estate Agent automates property search and market analysis using Fir
 
 ### Features
 - **Smart Property Search**: Uses Firecrawl's Extract endpoint to find properties across multiple real estate websites
-- **Multi-Source Integration**: Aggregates data from 99acres, Housing.com, Square Yards, Nobroker, and MagicBricks
+- **Multi-Source Integration**: Aggregates data from Zillow and Trulia broker sites
 - **Location Analysis**: Provides detailed price trends and investment insights for different localities
 - **AI-Powered Recommendations**: Uses GPT models to analyze properties and provide structured recommendations
 - **User-Friendly Interface**: Clean Streamlit UI for easy property search and results viewing
@@ -37,10 +37,11 @@ The AI Real Estate Agent automates property search and market analysis using Fir
    - Keys are securely stored in the session state
 
 2. **Set Search Criteria**:
-   - Enter the city name
-   - Select property category (Residential/Commercial)
-   - Choose property type (Flat/Individual House)
-   - Set maximum budget in Crores
+   - Enter the city
+   - Enter the state
+   - Choose home type : Condos, Houses, Townhomes, Apartments etc
+   - Set maximum budget in USD
+   - Enter the desired number of rooms in the home
 
 3. **View Results**:
    - Property recommendations with detailed analysis
